@@ -26,7 +26,7 @@ assert len(resources) > 10, 'zoneinfo files not found!'
 setup(
     name='pytz',
     version=pytz.VERSION,
-    zip_safe=True,
+    zip_safe=False,
     description='World timezone definitions, modern and historical',
     long_description=open('README.rst', 'r').read(),
     author=me,
